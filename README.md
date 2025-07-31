@@ -19,9 +19,6 @@ Or, if your script uses a subfolder, adjust the path like:
 ```python
 model_path = "models/phi-2.Q4_K_M.gguf"
 ```
-
-Recommended file:
-
 ---
 
 ## Features
@@ -41,30 +38,14 @@ Recommended file:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/mini-rag-cli.git
-cd mini-rag-cli
+git clone https://github.com/meghaduaa/RAG_UPDATED.git
+cd RAG_UPDATED
 ```
 
 ### 2. Install requirements
 
 ```bash
 pip install -r requirements.txt
-```
-
-If you don’t have a `requirements.txt` yet, create one with the following contents:
-
-```txt
-langchain
-langchain-community
-langchain-core
-langchain-huggingface
-transformers
-torch
-faiss-cpu
-sentence-transformers
-python-docx
-pypdf
-docx2txt
 ```
 
 ### 3. Add your documents
