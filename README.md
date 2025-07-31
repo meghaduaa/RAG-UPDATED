@@ -1,5 +1,9 @@
 # RAG-UPDATED – Mini RAG CLI (Retrieval-Augmented Generation)
 
+This is a lightweight, fast, and local Retrieval-Augmented Generation (RAG) system built using LangChain, FAISS, and a tiny local LLM (Phi-2 via LlamaCpp). Perfect for running document-based question-answering tasks right from your terminal.
+
+---
+
 ##  Model Download Required (Phi-2)
 
 This project uses the **Phi-2 language model** in GGUF format for local answering via `llama-cpp-python`.  
@@ -17,7 +21,7 @@ Choose a smaller quantized version (like Q4_0 or Q5_1) if you're on a lower-end 
 Put the downloaded `.gguf` file in your project root (same folder as `rag.py`).  
 Or, if your script uses a subfolder, adjust the path like:
 ```python
-model_path = "models/phi-2.Q4_K_M.gguf"
+model_path = "phi-2.Q4_K_M.gguf"
 ```
 ---
 
