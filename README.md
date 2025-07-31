@@ -101,6 +101,7 @@ You can now ask questions based on the content in your documents.
 mini-rag-cli/
 ├── rag.py               # Main CLI script
 ├── document/            # Your input PDF, DOCX, and TXT files
+├── phi-2.Q4_K_M.gguf    # Local LLM model file (downloaded separately from Hugging Face)
 └── README.md            # Project documentation
 ```
 
