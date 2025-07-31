@@ -106,6 +106,5 @@ You can download Phi-2 from [TheBloke’s Hugging Face page](https://huggingface
 ## Contributing
 
 PRs and issues are welcome!  
-Feel free to contribute better prompting strategies, faster LLMs, or UI improvements.
 
 ---
